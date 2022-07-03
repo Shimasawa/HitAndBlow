@@ -6,7 +6,7 @@ class HitAndBlow:
         self.turn = 1 
         self.hit = self.blow = 0
 
-    def check(self,num :str) -> dict:
+    def check(self,num :str):
         self.hit = self.blow = 0
 
         for i,n in zip(list(self.NUM),list(num)):
